@@ -1,0 +1,3 @@
+This code is just for illustrational purposes, you may NOT do whatever you want with it.
+However you can use it to see how I solved any problem you may find relevant for your
+own projects.
