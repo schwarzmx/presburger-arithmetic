@@ -1,0 +1,26 @@
+This is a simple application for solving Presburger Arithmetic formulae. It was part of a
+final project for my Automata and Formal Languages course.
+It's stil kind of buggy but it solves simple formulae. Some optimizations
+and shortcut calculations are still missing.
+
+Before building the code, please make sure that ANT is installed. This tool can be used on 
+Windows or any *nix system.
+
+To build the code follow these steps:
+
+1. Open a terminal window
+2. Navigate to the folder containing the build.xml file (this folder).
+3. Type "ant" in the terminal.
+4. You will find the PresburgerArithmetic.jar executable in the ./build/jar folder, from 
+there or by copying the jar to any folder the jar can be executed.
+	
+To execute the jar follow this steps:
+
+1. Open a terminal window.
+2. Navigate to the location of the jar file (PresburgerArithmetic.jar).
+3. Type "java -jar PresburgerArithmetic.jar <filename>", where filename is the name of the
+txt file containing the formula to be processed. The file should be preferably in the same 
+folder as the JAR file. If not specify the complete path to it.
+4. Wait until the program terminates.
+5. Expect a file with the same filename but with a .dotty extension at the end, this will 
+containing the Dotty description for the final automaton.
